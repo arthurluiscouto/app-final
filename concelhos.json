@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "concelho": "Abrantes",
+        "casos": 578
+    },
+    {
+        "id": 2,
+        "concelho": "Águeda",
+        "casos": 593
+    },
+    {
+        "id": 3,
+        "concelho": "Aguiar da Beira",
+        "casos": 236
+    },
+    {
+        "id": 4,
+        "concelho": "Alandroal",
+        "casos": 200
+    },
+    {
+        "id": 5,
+        "concelho": "Albergaria-a-Velha",
+        "casos": 580
+    },
+    {
+        "id": 6,
+        "concelho": "Albufeira",
+        "casos": 301
+    },
+    {
+        "id": 7,
+        "concelho": "Alcácer do Sal",
+        "casos": 266
+    },
+    {
+        "id": 8,
+        "concelho": "Alcanena",
+        "casos": 960
+    },
+    {
+        "id": 9,
+        "concelho": "Alcobaça",
+        "casos": 947
+    },
+    {
+        "id": 10,
+        "concelho": "Alcochete",
+        "casos": 293
+    },
+    {
+        "id": 11,
+        "concelho": "Alcoutim",
+        "casos": 93
+    },
+    {
+        "id": 12,
+        "concelho": "Alenquer",
+        "casos": 386
+    },
+    {
+        "id": 13,
+        "concelho": "Teste1",
+        "casos": 290
+    },
+    {
+        "id": 14,
+        "concelho": "Teste1",
+        "casos": 290
+    },
+    {
+        "id": 15,
+        "concelho": "Teste3",
+        "casos": 520
+    },
+    {
+        "id": 16,
+        "concelho": "Teste4",
+        "casos": 305
+    }
+]
