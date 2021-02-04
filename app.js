@@ -1,18 +1,21 @@
 const express = require('express')
 const app = express()
-const port = process.env.PORT || 5000
-const data = require("./data.json");
+const port = process.env.PORT || 3000
+const data = require("./data.json")
+const cors = require("cors")
 
 app.use(express.json());
 
 app.get("/client", (req, res) => {
-    res.json(data);
+    res.json(data)
 })
 
-app.get('', (req, res) => {})
-app.post('', (req, res) => {})
-app.put('', (req, res) => {})
-app.delete('', (req, res) => {})
+app.get("/client/:id", (req, res) => {
+    const { id } = req.params
+    const client = data.find(cli => cli.id == id)
+
+    res.json(client)    
+})
 
 app.listen(port, () => {
     console.log("Server is running")
