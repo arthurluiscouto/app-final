@@ -1,26 +1,19 @@
-// const express = require('express')
-// const app = express()
-// const PORT = process.env.PORT || 3000
-
-// const bodyParser = require('body-parser')
-
-// app.use(bodyParser.json())
-// app.use(bodyParser.urlencoded({ extended: false }))
-
-// app.get('/', (req, res) => {
-//     res.send('OK')
-// })
-
-// app.listen(PORT)
-
 const express = require('express')
 const app = express()
-const port = 3000
+const port = process.env.PORT || 5000
+const data = require("./data.json");
 
-app.get('/', (req, res) => {
-    res.send('Hello World!')
+app.use(express.json());
+
+app.get("/client", (req, res) => {
+    res.json(data);
 })
 
+app.get('', (req, res) => {})
+app.post('', (req, res) => {})
+app.put('', (req, res) => {})
+app.delete('', (req, res) => {})
+
 app.listen(port, () => {
-    console.log("hello world!")
+    console.log("Server is running")
 })
