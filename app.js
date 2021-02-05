@@ -6,6 +6,10 @@ const data = require("./data.json")
 
 app.use(express.json());
 
+app.get('/', (req, res) => {
+    res.send('Hello World!')
+})
+
 app.get("/user", (req, res) => {
     res.json(data)
 })
